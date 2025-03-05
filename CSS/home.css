@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Rubik", sans-serif;
+}
+header{
+  border: 1px solid red;
+  width: 1920px;
+  height: 190px;
+}
+header .top_bar{
+  background-color: #00008E;
+  color: white;
+  width: 1920px;
+  height: 65px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Menu */
+header .menu {
+  /* border: 1px solid white; */
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 400; /* Sesuaikan dengan kebutuhan (300-900) */
+  font-style: normal;
+  width: 321px;
+  height: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: transform 0.2s ease-in-out;
+}
+header .menu:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+/* Social Network */
+header .social_network {
+  /* border: 1px solid white; */
+  width: 321px;
+  height: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* Facebook */
+.social_network .facebook svg {
+  width: 15px;
+  height: 25px;
+  fill: white; /* Warna putih */
+  transition: transform 0.2s ease-in-out;
+}
+.social_network .facebook svg:hover {
+  transform: scale(1.1); /* Efek hover */
+}
+/* Linkedin */
+.social_network .linkedin svg {
+  width: 21px;
+  height: 25px;
+  fill: white;
+  transition: transform 0.2s ease-in-out;
+}
+.social_network .linkedin svg:hover {
+  transform: scale(1.1); 
+}
+/* Twitter */
+.social_network .twitter svg {
+  width: 24px;
+  height: 25px;
+  fill: white; 
+  transition: transform 0.2s ease-in-out;
+}
+.social_network .twitter svg:hover {
+  transform: scale(1.1); 
+}
+/* ID|EN */
+.social_network .trucks {
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 500; /* Sesuaikan dengan kebutuhan (300-900) */
+  font-style: normal;
+}
+.social_network .trucks:hover {
+  cursor: pointer;
+}
+
+/* Bottom bar img */
+header .bottom_bar{
+  /* border: 1px solid black; */
+  background-color: white;
+  width: 1920px;
+  height: 125px;
+  
+  display: flex;
+  align-items: center;
+}
+
+.bottom_bar .group-1 {
+  /* border: 1px solid black; */
+  width: 341px;
+  height: 70px;
+  margin-left: 300px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom_bar .group-1 .helios svg {
+  width: 137.85px;
+  height: 69.65px;
+}
+.bottom_bar .group-1 .sangfor svg {
+  width: 174.13px;
+  height: 58.64px;
+}
+
+/* Section Hero */
+/* section.hero {
+  width: 1920px;
+  height: 890px;
+  background-image: url(/img/main_banner_section.png);
+  display: flex;
+  align-items: center;
+  color: white;
+} */
+section.hero {
+  width: 1920px;
+  height: 890px;
+  display: flex;
+  align-items: center;
+  color: white;
+
+  background: 
+    linear-gradient(to bottom right, rgba(0, 0, 142, 0.75), rgba(4, 190, 2, 0.75)), /* Gradient dengan opacity */
+    url("/img/main_banner_section.png"); 
+}
+
+section.hero .hero-card{
+  /* border: 1px solid white; */
+  width: 762px;
+  height: 381px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20%;
+}
+section.hero .hero-card h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 50px;
+  font-weight: 800; 
+  font-style: normal;
+}
+section.hero .hero-card p {
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+  font-weight: 500; 
+  font-style: normal;
+}
+button.free-trial {
+  width: 271px;
+  height: 54px;
+  display: flex;
+  padding: 0; /* Hilangkan padding default */
+  border: none; /* Hilangkan border bawaan */
+  background: none; /* Hilangkan background putih */
+  cursor: pointer; /* Tambahkan efek hover */
+}
+button.free-trial .ft-left {
+  width: 217px;
+  height: 54px;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 600; /* Semibold */
+  font-style: normal;
+  background-color: #04BE02;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button.free-trial .ft-right{
+  width: 54px;
+  height: 54px;
+  background-color: #018000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button.free-trial .ft-right svg {
+  width: 7px;
+  height: 22px;
+  fill: #F9FAFE;
+}
