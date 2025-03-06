@@ -467,3 +467,49 @@ section .section-3 h1 {
   font-size: 17px;
   line-height: 25px;
 }
+
+/* Section 5 ================================================================================= */
+.section-5 {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 828px;
+  background: url("/img/section-5.png") no-repeat center;
+  background-size: cover;
+  padding: 64px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.section-5 h1 {
+  text-align: center;
+}
+.section5-list{
+  /* border: 1px solid black; */
+  list-style: none;
+  padding: 0;
+  width: 45.52%;
+  height: 66%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section5-list li{
+  display: flex;
+  gap: 40px;
+}
+.section5-list svg{
+  /* border: 1px solid black; */
+  flex-shrink: 0; /* Mencegah ikon mengecil */
+  width: 36px;
+  height: 36px;
+}
+.section5-list li span{
+  font-size: 28px;
+  font-weight: 500;
+  color: #6C646A;
+  line-height: 40px;
+}
+
