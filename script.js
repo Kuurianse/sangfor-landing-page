@@ -4,3 +4,5 @@ window.onscroll = function() {
   let scrollPercent = (scrollPosition / scrollHeight) * 100;
   document.querySelector(".progress-bar").style.width = scrollPercent + "%";
 };
+
+AOS.init();

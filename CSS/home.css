@@ -217,13 +217,20 @@ button.free-trial .ft-right svg {
 section .section-2 {
   width: 100%;
   height: 1196px;
-  background: url("/img/section-2.png"), rgba(239, 248, 255, 0.51);  
+  background: url("/img/section-2.png"), rgba(239, 248, 255, 0.51);
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 96px;
   padding: 10%
 }
+
 /* About */
 section .about {
   /* border: 1px solid black; */
@@ -486,7 +493,11 @@ section .section-3 h1 {
   width: 100%;
   height: 828px;
   background: url("/img/section-5.png") no-repeat center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
+
   padding: 64px;
 
   display: flex;
@@ -635,4 +646,83 @@ section .section-7{
   font-size: 26px;
   font-weight: 600;
   color: #19456B;
+}
+
+/* Last Section ================================================================================= */
+section .lastSection{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 606px;
+  padding: 45px;
+  background: linear-gradient(to bottom right, #00008E, #04BE02);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lastSection .lastSection-container{
+  /* border: 1px solid white; */
+  width: 1454px;
+  height: 521px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-content{
+  /* border: 1px solid white; */
+  width: 100%;
+  height: 388px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.contact-content h2{
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 25px;
+  color: white;
+}
+.contact-content p{
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  line-height: 30px;
+}
+.contact-content .sosmed{
+  /* border: 1px solid white; */
+  width: 272px;
+  header: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sosmed .sosmed-icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.woldwide img{
+  height: 926px;
+  width: 521px;
+  display: block; /* Hindari ada ruang kosong bawaan inline element */
+}
+
+/* Footer ================================================================================= */
+footer{
+  width: 100%;
+  height: 100px;
+  background-color: #000A85;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p{
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  line-height: 30px;
 }
