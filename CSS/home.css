@@ -94,9 +94,9 @@ header .social_network {
 }
 
 /* ID|EN */
-.social_network .trucks a{
+.social_network .trucks a {
   font-size: 20px;
-  font-weight: 500; 
+  font-weight: 500;
   font-style: normal;
   color: white;
   text-decoration: none;
@@ -234,7 +234,7 @@ section .section-2 {
   justify-content: center;
   align-items: center;
   gap: 96px;
-  padding: 10%
+  padding: 10%;
 }
 
 /* About */
@@ -255,7 +255,7 @@ section .about h1 {
 section .about p {
   font-size: 18px;
   font-weight: 400; /* Regular */
-  color: #6C646A;
+  color: #6c646a;
   line-height: 30px;
 }
 
@@ -265,7 +265,7 @@ section .form-container {
   width: 600px;
   height: 996px;
   padding: 28px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 section .form-container .title {
   /* border: 1px solid black; */
@@ -273,10 +273,10 @@ section .form-container .title {
   font-weight: 700; /* Bold */
   color: #293660;
 }
-section .form-container .title span{
+section .form-container .title span {
   font-size: 21px;
   font-weight: 600; /* Bold */
-  color: #6D6D6D;
+  color: #6d6d6d;
 }
 
 /* Form User Details */
@@ -287,12 +287,12 @@ section .form-container .title span{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  min-height: 870px; 
+  min-height: 870px;
 }
 /* .input-box {
   border: 1px solid red;
 } */
-.user-details .name{
+.user-details .name {
   display: flex;
   justify-content: space-between;
   gap: 20px;
@@ -302,81 +302,81 @@ section .form-container .title span{
   width: 48%;
   height: 46px;
 }
-.input-box .details{
+.input-box .details {
   font-size: 18px;
   font-weight: 500; /* Medium */
-  color: #6D6D6D;
+  color: #6d6d6d;
   padding-left: 10px;
 }
 .input-box input::placeholder {
   font-size: 18px;
   font-weight: 400; /* Medium */
-  color: #C5C5C5;
+  color: #c5c5c5;
 }
 
 .input-box .details,
-.input-box input{
+.input-box input {
   width: 100%;
   height: 46px;
 }
-.input-box input{
+.input-box input {
   width: 100%;
   height: 46px;
-  border: 1px solid #9B9B9B;
+  border: 1px solid #9b9b9b;
   border-radius: 5px;
   padding: 0 10px;
-  margin-top: 7px;  
+  margin-top: 7px;
 }
-.check{
+.check {
   display: flex;
   justify-content: space-between;
   gap: 10px;
 }
-.check .details{
+.check .details {
   font-size: 18px;
   font-weight: 500; /* Medium */
-  color: #6D6D6D;
+  color: #6d6d6d;
 }
-.check input{
+.check input {
   width: 19px;
   height: 19px;
-  border: 1px solid #9B9B9B;
+  border: 1px solid #9b9b9b;
   border-radius: 5px;
   margin-right: 10px;
 }
 .input-box select {
   width: 100%;
   height: 46px;
-  border: 1px solid #9B9B9B;
+  border: 1px solid #9b9b9b;
   border-radius: 5px;
   padding: 0 10px;
   font-size: 18px;
   font-weight: 400;
-  color: #6D6D6D;
+  color: #6d6d6d;
   background-color: white;
   cursor: pointer;
 }
 
 .input-box select:focus {
-  outline: 2px solid #04BE02;
+  outline: 2px solid #04be02;
 }
 .input-box input:focus {
-  outline: 2px solid #04BE02;
+  outline: 2px solid #04be02;
 }
 
 /* Submit Button */
-.button{
+.button {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
 }
-.user-details .button input[type="submit"]{
+.user-details .button input[type="submit"] {
   width: 36%;
-  height: 54px; 
+  height: 54px;
   font-size: 20px;
   font-weight: 600; /* Semibold */
-  background-color: #04BE02;  
+  background-color: #04be02;
   color: white;
   border: none;
   cursor: pointer;
@@ -407,16 +407,16 @@ section .form-container .title span{
 }
 
 /* Section 3 ================================================================================= */
-section .section-3{
+section .section-3 {
   border: 1px solid black;
   width: 100%;
   height: 1356px;
   background: linear-gradient(
-    to bottom right,
-    rgba(0, 0, 117, 0.75),
-    rgba(4, 190, 2, 0.75)
-  ),
-  /* Gradient dengan opacity */ url("/img/section-3.png");
+      to bottom right,
+      rgba(0, 0, 117, 0.75),
+      rgba(4, 190, 2, 0.75)
+    ),
+    /* Gradient dengan opacity */ url("/img/section-3.png");
   background-size: cover;
   background-position: center;
 }
@@ -426,16 +426,16 @@ section .section-3 h1 {
   text-align: center;
   margin-top: 80px;
 }
-.section-3 .section3-container{
+.section-3 .section3-container {
   /* border: 1px solid black; */
   width: 61.46%;
-  height: 78.60%;
+  height: 78.6%;
   margin: 50px auto;
   gap: 40px 20px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
-.section3-container .section3-card{
+.section3-container .section3-card {
   /* border: 1px solid black; */
   padding: 40px;
   display: flex;
@@ -444,11 +444,11 @@ section .section-3 h1 {
   background-color: white;
   box-shadow: 0px 6px 8px rgba(44, 1, 165, 0.15);
 }
-.section3-card .img svg{
+.section3-card .img svg {
   width: 185px;
   height: 185px;
 }
-.section3-card-content{
+.section3-card-content {
   /* border: 1px solid black; */
   width: 100%;
   height: 100%;
@@ -463,11 +463,11 @@ section .section-3 h1 {
 }
 
 /* Section 4 ================================================================================= */
-.section-4{
+.section-4 {
   width: 100%;
   height: 1200px;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 66px;
@@ -475,7 +475,7 @@ section .section-3 h1 {
 
 .section4-container {
   /* border: 1px solid black; */
-  width: 61.50%;
+  width: 61.5%;
   height: 73.33%;
   display: flex;
   flex-wrap: wrap;
@@ -483,7 +483,7 @@ section .section-3 h1 {
   gap: 50px;
 }
 
-.section4-container .section4-card{
+.section4-container .section4-card {
   /* border: 1px solid black;   */
   width: calc(33.33% - 50px);
   min-width: 327px;
@@ -499,7 +499,7 @@ section .section-3 h1 {
   height: 100%;
   flex-shrink: 0;
 }
-.section4-card .section4-card-content{
+.section4-card .section4-card-content {
   /* border: 1px solid black; */
   text-align: center;
   width: 100%;
@@ -534,7 +534,7 @@ section .section-3 h1 {
 .section-5 h1 {
   text-align: center;
 }
-.section5-list{
+.section5-list {
   /* border: 1px solid black; */
   list-style: none;
   padding: 0;
@@ -545,36 +545,36 @@ section .section-3 h1 {
   flex-direction: column;
   justify-content: space-between;
 }
-.section5-list li{
+.section5-list li {
   display: flex;
   gap: 40px;
 }
-.section5-list svg{
+.section5-list svg {
   /* border: 1px solid black; */
   flex-shrink: 0; /* Mencegah ikon mengecil */
   width: 36px;
   height: 36px;
 }
-.section5-list li span{
+.section5-list li span {
   font-size: 28px;
   font-weight: 500;
-  color: #6C646A;
+  color: #6c646a;
   line-height: 40px;
 }
 
 /* Section 6 ================================================================================= */
-section .section-6{
+section .section-6 {
   width: 100%;
   height: 351px;
-  background-color: #F9FAFE;
-  
+  background-color: #f9fafe;
+
   display: flex;
   justify-content: center;
   align-items: center;
 
   position: relative;
 }
-.section6-aboveBar{
+.section6-aboveBar {
   /* border: 1px solid black; */
   width: 52%;
   /* height: 117px; */
@@ -586,12 +586,12 @@ section .section-6{
   position: absolute;
   /* top: -63.5px; */
 
-  left: 50%; 
+  left: 50%;
   top: 0;
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
   /* Pusatkan dan naikkan setengah tinggi elemen */
 }
-.section6-aboveBar h1{
+.section6-aboveBar h1 {
   color: white;
 }
 .section-6 .img-container {
@@ -601,24 +601,24 @@ section .section-6{
   justify-content: space-between;
   align-items: center;
 }
-.img-container .img-1{
+.img-container .img-1 {
   width: 238px;
   height: 78px;
 }
-.img-container .img-2{
+.img-container .img-2 {
   width: 195px;
   height: 121px;
 }
-.img-container .img-3{
+.img-container .img-3 {
   width: 227px;
   height: 84px;
 }
-.img-container .img-4{
+.img-container .img-4 {
   width: 308px;
   height: 87px;
 }
 /* Section 7 ================================================================================= */
-section .section-7{
+section .section-7 {
   /* border: 1px solid red; */
   width: 100%;
   height: 722px;
@@ -631,18 +631,18 @@ section .section-7{
 .section-7 .jud-des p {
   font-size: 28px;
   font-weight: 400;
-  color: #6C646A;
+  color: #6c646a;
   margin-top: 18px;
   line-height: 36px;
 }
-.section7-container{
+.section7-container {
   /* border: 1px solid black; */
-  width: 62.50%;
+  width: 62.5%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
-} 
-.section7-container .section7-card{
+}
+.section7-container .section7-card {
   /* border: 1px solid black; */
   height: 305px;
   padding: 50px;
@@ -651,40 +651,40 @@ section .section-7{
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  box-shadow: 0px 4px 10px rgba(41, 54, 96, 0.15), 
-  0px 2px 4px rgba(41, 54, 96, 0.1);
+  box-shadow: 0px 4px 10px rgba(41, 54, 96, 0.15),
+    0px 2px 4px rgba(41, 54, 96, 0.1);
 }
-.section7-card .circle{
+.section7-card .circle {
   width: 108px;
   height: 108px;
   border-radius: 50%;
-  background: linear-gradient(to bottom right, #00008E, #018000);
+  background: linear-gradient(to bottom right, #00008e, #018000);
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.section7-card .circle img{
+.section7-card .circle img {
   width: 66px;
   height: 66px;
 }
 .section7-card h2 {
   font-size: 26px;
   font-weight: 600;
-  color: #19456B;
+  color: #19456b;
 }
 
 /* Last Section ================================================================================= */
-section .lastSection{
+section .lastSection {
   /* border: 1px solid red; */
   width: 100%;
   height: 606px;
   padding: 45px;
-  background: linear-gradient(to bottom right, #00008E, #04BE02);
+  background: linear-gradient(to bottom right, #00008e, #04be02);
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.lastSection .lastSection-container{
+.lastSection .lastSection-container {
   /* border: 1px solid white; */
   width: 1454px;
   height: 521px;
@@ -692,28 +692,27 @@ section .lastSection{
   justify-content: space-between;
   align-items: center;
 }
-.contact-content{
+.contact-content {
   /* border: 1px solid white; */
   width: 100%;
   height: 388px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
 }
-.contact-content h2{
+.contact-content h2 {
   font-size: 28px;
   font-weight: 700;
   line-height: 25px;
   color: white;
 }
-.contact-content p{
+.contact-content p {
   font-size: 20px;
   font-weight: 400;
   color: white;
   line-height: 30px;
 }
-.contact-content .sosmed{
+.contact-content .sosmed {
   /* border: 1px solid white; */
   width: 272px;
   header: 40px;
@@ -721,7 +720,7 @@ section .lastSection{
   justify-content: space-between;
   align-items: center;
 }
-.sosmed .sosmed-icon{
+.sosmed .sosmed-icon {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -731,28 +730,28 @@ section .lastSection{
   align-items: center;
   transition: transform 0.2s ease-in-out;
 }
-.sosmed .sosmed-icon:hover{
+.sosmed .sosmed-icon:hover {
   transform: scale(1.1);
 }
 
-.worldwide img{
+.worldwide img {
   /* border: 1px solid white; */
   width: auto;
   height: 100%;
-  display: block; 
+  display: block;
   /* Hindari ada ruang kosong bawaan inline element */
 }
 
 /* Footer ================================================================================= */
-footer{
+footer {
   width: 100%;
   height: 100px;
-  background-color: #000A85;
+  background-color: #000a85;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-footer p{
+footer p {
   font-size: 20px;
   font-weight: 400;
   color: white;

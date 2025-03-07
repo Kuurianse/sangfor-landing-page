@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Header ================================================================================= */
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  position: fixed;
+  z-index: 1000;
+}
+header .top_bar {
+  background-color: #00008e;
+  color: white;
+  width: 100%;
+  height: 65px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Menu */
+header .menu {
+  /* border: 1px solid white; */
+  font-size: 20px;
+  font-weight: 400; /* Sesuaikan dengan kebutuhan (300-900) */
+  font-style: normal;
+  width: 321px;
+  height: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: transform 0.2s ease-in-out;
+}
+header .menu:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+/* Social Network */
+header .social_network {
+  /* border: 1px solid white; */
+  width: 321px;
+  height: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* Facebook */
+.social_network .facebook svg {
+  width: 15px;
+  height: 25px;
+  fill: white; /* Warna putih */
+  transition: transform 0.2s ease-in-out;
+}
+.social_network .facebook svg:hover {
+  transform: scale(1.1); /* Efek hover */
+}
+/* Linkedin */
+.social_network .linkedin svg {
+  width: 21px;
+  height: 25px;
+  fill: white;
+  transition: transform 0.2s ease-in-out;
+}
+.social_network .linkedin svg:hover {
+  transform: scale(1.1);
+}
+/* Twitter */
+.social_network .twitter svg {
+  width: 24px;
+  height: 25px;
+  fill: white;
+  transition: transform 0.2s ease-in-out;
+}
+.social_network .twitter svg:hover {
+  transform: scale(1.1);
+}
+
+/* ID|EN */
+.social_network .trucks a {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.2s ease-in-out;
+  display: inline-block;
+}
+.social_network .trucks a:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/* Bottom bar img */
+header .bottom_bar {
+  /* border: 1px solid black; */
+  /* background-color: white; */
+  background: linear-gradient(to bottom, white, rgba(255, 255, 255, 0.5));
+  width: 100%;
+  height: 125px;
+
+  display: flex;
+  align-items: center;
+}
+
+.bottom_bar .group-1 {
+  /* border: 1px solid black; */
+  width: 341px;
+  height: 70px;
+  margin-left: 14%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom_bar .group-1 .helios svg {
+  width: 137.85px;
+  height: 69.65px;
+}
+.bottom_bar .group-1 .sangfor svg {
+  width: 174.13px;
+  height: 58.64px;
+}
+
+/* Thank You Section =================================================================================*/
+section .thank-section {
+  /* border: 1px solid black; */
+  margin-top: 138px;
+  width: 100%;
+  /* height: 982px; */
+  height: 100vh;
+  background: url("../img/thank/thanksection.png") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: wrap;
+}
+.thank-section-container {
+  /* border: 1px solid black; */
+  /* width: 692px;
+  height: 770px; */
+  max-width: 80%; /* Atau bisa pakai 80% untuk tampilan lebih kompak */
+  width: 692px; /* Menjaga ukuran default */
+  height: auto; /* Biarkan tinggi menyesuaikan */
+}
+.thank-section-container {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+.thank-section-container img {
+  /* border: 1px solid black; */
+}
+
+.thank-card .thank-content {
+  /* border: 1px solid black; */
+  width: 100%;
+  text-align: center;
+  margin-top: 10%;
+}
+.thank-content h1 {
+  font-size: 46px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #293660;
+}
+.thank-content p {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #6d6d6d;
+}
+
+.back-button {
+  display: inline-block;
+  width: 280px;
+  max-width: 80%; /* Bisa berubah sesuai ukuran layar */
+  height: 54px;
+  background-color: #04be02;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 14px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+.back-button:hover {
+  background-color: rgb(3, 165, 0);
+}
+
+/* Last Section ================================================================================= */
+section .lastSection {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 606px;
+  padding: 45px;
+  background: linear-gradient(to bottom right, #00008e, #04be02);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lastSection .lastSection-container {
+  /* border: 1px solid white; */
+  width: 1454px;
+  height: 521px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-content {
+  /* border: 1px solid white; */
+  width: 100%;
+  height: 388px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contact-content h2 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 25px;
+  color: white;
+}
+.contact-content p {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  line-height: 30px;
+}
+.contact-content .sosmed {
+  /* border: 1px solid white; */
+  width: 272px;
+  header: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sosmed .sosmed-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s ease-in-out;
+}
+.sosmed .sosmed-icon:hover {
+  transform: scale(1.1);
+}
+
+.worldwide img {
+  /* border: 1px solid white; */
+  width: auto;
+  height: 100%;
+  display: block;
+  /* Hindari ada ruang kosong bawaan inline element */
+}
+
+/* Footer ================================================================================= */
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #000a85;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  line-height: 30px;
+}
