@@ -136,7 +136,7 @@ section .thank-section {
   margin-top: 138px;
   width: 100%;
   /* height: 982px; */
-  height: 100vh;
+  min-height: 100vh;
   background: url("../img/thank/thanksection.png") no-repeat center center/cover;
   display: flex;
   justify-content: center;
@@ -144,7 +144,7 @@ section .thank-section {
   flex: wrap;
 }
 .thank-section-container {
-  /* border: 1px solid black; */
+  border: 1px solid black;
   /* width: 692px;
   height: 770px; */
   max-width: 80%; /* Atau bisa pakai 80% untuk tampilan lebih kompak */
