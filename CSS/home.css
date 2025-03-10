@@ -220,8 +220,18 @@ button.free-trial .ft-right svg {
 }
 
 /* Section 2 ================================================================================= */
-section .section-2 {
+/* section{
   width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+section .section-2 {
+  /* border: 5px solid red; */
+  /* width: 100%; */
   /* height: 1196px; */
   min-height: 100vh;
   background: url("../img/section-2.png"), rgba(239, 248, 255, 0.51);
@@ -232,6 +242,7 @@ section .section-2 {
   background-size: cover;
 
   display: flex;
+  flex-wrap: wrap;  
   justify-content: center;
   align-items: center;
   gap: 96px;
@@ -240,11 +251,12 @@ section .section-2 {
 
 /* About */
 section .about {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 504px;
-  /* height: 806px; */
+  height: 806px;
   /* height: 66%;  */
-  min-height: 806px;
+  /* min-height: 806px; */
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -267,6 +279,7 @@ section .about p {
 /* Form */
 section .form-container {
   /* border: 1px solid black; */
+  box-sizing: border-box;
   width: 600px;
   height: 996px;
   padding: 28px;
@@ -416,7 +429,7 @@ section .section-3 {
   /* border: 1px solid red; */
   width: 100%;
   /* height: 1356px; */
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background: linear-gradient(
       to bottom right,
       rgba(0, 0, 117, 0.75),
@@ -426,6 +439,7 @@ section .section-3 {
   background-size: cover;
   background-position: center;
   padding: 80px 0;
+  overflow: hidden;
 }
 section .section-3 h1 {
   color: white;
@@ -435,12 +449,15 @@ section .section-3 h1 {
 .section-3 .section3-container {
   /* border: 1px solid red; */
   width: 61.46%;
+  max-width: 1000px;
   /* height: 78.6%; */
   height: auto;
   margin: 50px auto;
   gap: 40px 20px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+
+
 }
 .section3-container .section3-card {
   /* border: 1px solid black; */
@@ -477,12 +494,17 @@ section .section-3 h1 {
 /* Section 4 ================================================================================= */
 .section-4 {
   width: 100%;
-  height: 1200px;
+  /* height: 1200px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 100px 20px;
   gap: 66px;
+}
+
+.section-4 h1{
+  text-align: center;
 }
 
 .section4-container {
@@ -529,7 +551,8 @@ section .section-3 h1 {
 .section-5 {
   /* border: 1px solid black; */
   width: 100%;
-  height: 828px;
+  /* height: 828px; */
+  /* min-height: 828px; */
   background: url("../img/section-5.png") no-repeat center;
   background-attachment: fixed;
   background-position: center;
@@ -539,6 +562,7 @@ section .section-3 h1 {
   padding: 64px;
 
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   gap: 50px;
@@ -550,9 +574,12 @@ section .section-3 h1 {
   /* border: 1px solid black; */
   list-style: none;
   padding: 0;
-  width: 45.52%;
-  height: 66%;
-
+  /* width: 45.52%; */
+  width: 874px;
+  height: 452px;
+  /* min-width: 600px; */
+  /* height: 66%; */
+  margin-bottom: 143px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -577,7 +604,9 @@ section .section-3 h1 {
 /* Section 6 ================================================================================= */
 section .section-6 {
   width: 100%;
-  height: 351px;
+  /* height: 351px; */
+  padding: 100px 0;
+  
   background-color: #f9fafe;
 
   display: flex;
@@ -610,10 +639,14 @@ section .section-6 {
   /* border: 1px solid black; */
   width: 68.38%;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* justify-content: space-between; */
+  gap: 50px 100px;
   align-items: center;
 }
 .img-container .img-1 {
+  /* border: 1px solid black; */
   width: 238px;
   height: 78px;
 }
@@ -633,7 +666,8 @@ section .section-6 {
 section .section-7 {
   /* border: 1px solid red; */
   width: 100%;
-  height: 722px;
+  /* height: 722px; */
+  padding: 90px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -651,6 +685,7 @@ section .section-7 {
   /* border: 1px solid black; */
   width: 62.5%;
   display: grid;
+  margin: 90px 0 30px 0;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
 }
